@@ -26,6 +26,13 @@ autoencoder for mnist dataset reconstruction
 
 ## DATASET  
 > Later in this tutorial, we’ll be training an autoencoder on the MNIST dataset. The MNIST dataset consists of digits that are 28×28 pixels with a single channel, implying that each digit is represented by 28 x 28 = 784 values.
+>
+## STRUCTURE of This Project
+> the architecture of autoencdoer is in `pyimagesearch/convautoencoder.py` and for starting the train procedure you can run following command:
+```
+python train_conv_autoencoder.py
+```
+furthermore,you can open the `autoencoder-colab.ipynb` in google colab and run it cell by cell,same as below:
 
 
 
